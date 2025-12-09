@@ -37,9 +37,7 @@ const Services = () => {
         transition={{ delay: 0.7, duration: 0.5 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
-        A desc of what I offer, Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Consectetur alias a rerum, delectus non est tenetur
-        reprehenderit magnam sed dignissimos.
+        I provide full-stack digital solutions — from crafting modern websites to developing mobile apps and designing user experiences. My goal is to turn ideas into functional, scalable, and visually appealing products.
       </motion.p>
 
       <motion.div
@@ -57,12 +55,10 @@ const Services = () => {
           >
             <Image src={icon} alt="" className="w-10" />
             <h3 className="text-lg my-4 text-gray-700 dark:text-white">
-              {" "}
-              {title}{" "}
+              {title}
             </h3>
             <p className="text-sm text-gray-600 leading-5 dark:text-white/80">
-              {" "}
-              {description}{" "}
+              {description}
             </p>
             <a href={link} className="flex items-center gap-2 text-sm mt-5">
               {/* Remember go to the assets.js to add the link in the serviceData array */}
